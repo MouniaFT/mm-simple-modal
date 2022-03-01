@@ -31,7 +31,7 @@ const Modal = ({ show, children, onCloseModal }) => {
   )
 }
 
-Modal.PropTypes = {
+Modal.propTypes = {
   show: PropTypes.bool.isRequired,
   onCloseModal: PropTypes.func.isRequired,
   children: PropTypes.string.isRequired
