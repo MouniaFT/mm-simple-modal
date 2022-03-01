@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles.css'
+import styles from './styles.module.css'
 import PropTypes from 'prop-types'
 
 /**
@@ -14,16 +14,16 @@ const Modal = ({ show, children, onCloseModal }) => {
   return (
     <div>
       {show && (
-        <div className='overlay'>
-          <div className='modal'>
+        <div className={styles.overlay}>
+          <div className={styles.modal}>
             <button
-              className='modal-close'
+              className={styles.modal_close}
               type='button'
               onClick={onCloseModal}
             >
               X
             </button>
-            <div className='modal-body'>{children}</div>
+            <div className={styles.modal_body}>{children}</div>
           </div>
         </div>
       )}

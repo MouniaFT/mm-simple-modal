@@ -22,7 +22,7 @@
   margin: 0 auto;
 }
 
-.modal-close {
+.modal_close {
   position: absolute;
   top: -1.5rem;
   right: 0;
@@ -33,7 +33,7 @@
   cursor: pointer;
 }
 
-.modal-body {
+.modal_body {
   padding: 1.25rem 1.5rem;
   border-radius: 4px;
   background-color: white;
