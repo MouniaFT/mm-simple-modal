@@ -10,31 +10,43 @@
   z-index: 98;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .modal {
   position: relative;
   z-index: 99;
-  width: 100%;
-  max-width: 20rem;
+  /* width: 100%; */
+  /* max-width: 20rem; */
+  width: 90%;
+  /* vertical-align: middle; */
+  max-width: 500px;
   max-height: 100%;
   margin: 0 auto;
 }
 
 .modal_close {
   position: absolute;
-  top: -1.5rem;
-  right: 0;
   padding: 5px;
   border: 0;
-  background: none;
   color: white;
   cursor: pointer;
+  top: -12.5px;
+  right: -12.5px;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .modal_body {
-  padding: 1.25rem 1.5rem;
-  border-radius: 4px;
+  /* padding: 1.25rem 1.5rem;
+  border-radius: 4px; */
   background-color: white;
+  padding: 15px 30px;
+  box-shadow: 0 0 10px #000;
+  text-align: left;
+  border-radius: 8px;
 }
